@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人日誌 - 震撼的和解條件</title>
+    <style>
+        :root {
+            --primary-color: #1a1a1a;
+            --accent-color: #ffcc00; /* 警示金黃色 */
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, "Microsoft JhengHei";
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #888;
+            letter-spacing: 2px;
+        }
+
+        /* 加大後的 Banner 文字樣式 */
+        .banner-shout {
+            font-size: 3.5rem; 
+            font-weight: 900;
+            color: var(--accent-color);
+            margin: 15px 0 0 0;
+            text-shadow: 2px 2px 0px #000, 4px 4px 0px rgba(231, 76, 60, 0.5);
+            letter-spacing: 3px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        article {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        h2 { border-left: 5px solid var(--accent-color); padding-left: 15px; color: var(--primary-color); }
+
+        .meta-info {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 1.5rem;
+        }
+
+        .intro-text {
+            font-style: italic;
+            color: #555;
+            background: #fdf2f2;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border: 1px solid #eee;
+        }
+
+        .main-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+            display: block;
+            border: 2px solid #ddd;
+        }
+
+        .profile-section {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin: 30px 0;
+            padding: 15px;
+            background: #fdfdfd;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--primary-color);
+        }
+
+        .settlement-box {
+            background-color: #fffaf0;
+            border: 3px double #d35400;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        .settlement-box h3 {
+            text-align: center;
+            color: #d35400;
+            margin-top: 0;
+            font-size: 1.8rem;
+            text-decoration: underline;
+        }
+
+        ol li { margin-bottom: 15px; font-weight: bold; }
+
+        .price-highlight {
+            color: #e74c3c;
+            font-size: 1.2rem;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #7f8c8d;
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 600px) {
+            .banner-shout { font-size: 2rem; }
+            .profile-section { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>個人網誌日記</h1>
+    <p class="banner-shout">給我學狗叫 三回啊三回!!</p>
+</header>
+
+<div class="container">
+    <article>
+        <div class="meta-info">發布日期：令和8年9月3日 | 分類：重大事件紀錄</div>
+        
+        <h2>追撞事故後的黑色終局</h2>
+        
+        <p class="intro-text">
+            比賽結束之後回家路上的足球部員們。也許是因為過於疲憊，不幸追撞了黑色的高級車 。
+            對為了保護後輩而擔下全部責任的三浦，車主所提出的和解條件是… 
+        </p>
+
+        <img src="圖檔1.jpg" alt="事故現場" class="main-image">
+        
+        <p>
+            當天下午1時11分，於世田谷區北澤發生的事故，徹底改變了接下來的發展 。
+            甲方谷岡俊一先生的 Century 轎車雖然受損，但他提出的補償方案卻超乎常理 。
+        </p>
+
+        <div class="profile-section">
+            <img src="圖檔2.jpg" alt="乙方：多田野數人" class="profile-img">
+            <div>
+                <strong>責任承擔者：多田野數人 (三浦) </strong>
+                <p>足球部成員，當天為了保護疲憊的後輩，毅然決然承擔了事故的所有責任，展現了前輩的風範。</p>
+            </div>
+        </div>
+
+        <div class="profile-section" style="flex-direction: row-reverse;">
+            <img src="images.jpg" alt="甲方：谷岡俊一" class="profile-img">
+            <div style="text-align: right;">
+                <strong>甲方車主：谷岡俊一 </strong>
+                <p>黑色高級自小客車 (車號：TNOK-893) 的車主，提出「特殊要求」的暴力團團員。 </p>
+            </div>
+        </div>
+
+        <div class="settlement-box">
+            <h3>車 禍 和 解 書</h3>
+            <p><strong>甲方：</strong>谷岡俊一 | <strong>乙方：</strong>多田野數人 </p>
+            
+            <hr>
+            
+            <p>和解條件詳列：</p>
+            <ol>
+                <li>乙方願以自身駕照作為抵押物，是日當場於甲方宅內乙方以裸身學狗吠三次供甲方觀賞 。</li>
+                <li>甲方有權變更或追加要求條件，亦有對於條件的最終解釋權 。</li>
+                <li>甲方若受乙方一轉攻勢，即乙方有能力使甲方取消要求並取回駕照，則乙方不需負擔任何責任 。</li>
+                <li>乙方願無條件賠償甲方 <span class="price-highlight">1,145,141,919,810</span> 元賠償金，若違反和解條件 。</li>
+            </ol>
+        </div>
+
+        <p style="margin-top: 2rem; color: #666; font-size: 0.9rem;">
+            備註：本件車禍之其餘民事請求均拋棄，甲方並不再追究乙方之刑事責任 。
+        </p>
+    </article>
+</div>
+
+<footer>
+    &copy; 2026 北澤路口回憶錄 - 絕無虛言
+</footer>
+
+</body>
+</html>
